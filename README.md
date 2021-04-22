@@ -1,7 +1,6 @@
 <h1 align="center">Telegram File Stream Bot</h1>
 <p align="center">
-  <a href="https://github.com/AbirHasan2005/Pyro-FileStreamBot">
-    <img src="https://socialify.git.ci/AbirHasan2005/Pyro-FileStreamBot/image?description=1&font=Source%20Code%20Pro&forks=1&issues=1&logo=https%3A%2F%2Fwww.flaticon.com%2Fpremium-icon%2Ficons%2Fsvg%2F2321%2F2321089.svg&pattern=Circuit%20Board&pulls=1&stargazers=1&theme=Dark" alt="Cover Image" width="650">
+
   </a>
   <p align="center">
     A Telegram bot to stream files to web
@@ -62,11 +61,10 @@ The main working part was taken from [Megatron](https://github.com/eyaadh/megadl
 
 Either you could locally host or deploy on [Heroku](https://heroku.com)
 
-### Deploy on Heroku
+### Deploy to Heroku 🏃‍♂
 
-Press the below button to Fast deploy on Heroku
-
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
+The easiest way to deploy this Song Bot  <br><br>
+[![Deploy To Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/UvinduBro/File-Stream-Bot)
 
 then goto the <a href="#mandatory-vars">variables tab</a> for more info on setting up environmental variables.
 
