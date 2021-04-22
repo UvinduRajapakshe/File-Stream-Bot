@@ -56,6 +56,12 @@ To get an instant stream link, just forward any media to the bot and boom, its f
 ### Channel Support
 Bot also Supported with Channels. Just add bot Channel as Admin. If any new file comes in Channel it will edit it with **Get Download Link** Button.
 
-## Credits
+### Credits:
+
+- [Uvindu Bro Co](https://github.com/UvinduBroCo)
+
+### Developers:
+
+-  [@UvinduBro](https://t.me/Uvindu_Bro)
 
 
