@@ -1,61 +1,5 @@
 <h1 align="center">Telegram File Stream Bot</h1>
-<p align="center">
 
-  </a>
-  <p align="center">
-    A Telegram bot to stream files to web
-    <br />
-    <a href="https://telegram.dog/AH_File2Link_Bot"><strong>Demo Bot »</strong></a>
-    <br />
-    <a href="https://github.com/AbirHasan2005/Pyro-FileStreamBot/issues">Report a Bug</a>
-    |
-    <a href="https://github.com/AbirHasan2005/Pyro-FileStreamBot/issues">Request Feature</a>
-  </p>
-</p>
-
-<hr>
-
-<details open="open">
-  <summary>Table of Contents</summary>
-  <ol>
-    <li>
-      <a href="#about-this-bot">About this Bot</a>
-      <ul>
-        <li><a href="#original-repository">Original Repository</a></li>
-      </ul>
-    </li>
-    <li>
-      <a href="#how-to-make-your-own">How to make your own</a>
-      <ul>
-        <li><a href="#deploy-on-heroku">Deploy using Heroku</a></li>
-        <li><a href="#host-it-on-vps-or-locally">Run it in a VPS / local</a></li>
-      </ul>
-    </li>
-    <li><a href="#setting-up-things">Setting up things</a></li>
-    <ul>
-      <li><a href="#mandatory-vars">Mandatory Vars</a></li>
-      <li><a href="#optional-vars">Optional Vars</a></li>
-    </ul>
-    <li><a href="#how-to-use-the-bot">How to use the bot</a></li>
-    <li><a href="#channel-support">About Channel Support</a></li>
-    <li><a href="#credits">Credits</a></li>
-  </ol>
-</details>
-
-## About This Bot
-
-<p align="center">
-    <a href="https://github.com/AbirHasan2005/Pyro-FileStreamBot">
-        <img src="https://www.flaticon.com/premium-icon/icons/svg/2626/2626281.svg" height="100" width="100" alt="Telegram Logo">
-    </a>
-</p>
-<p align='center'>
-    This bot will give you stream links for Telegram files without the need of waiting till the download completes
-</p>
-
-### Original Repository
-
-The main working part was taken from [Megatron](https://github.com/eyaadh/megadlbot_oss) and thanks to [eyaadh](https://github.com/eyaadh) for his awesome project.
 
 ## How to make your own
 
@@ -68,36 +12,6 @@ The easiest way to deploy this Song Bot  <br><br>
 
 then goto the <a href="#mandatory-vars">variables tab</a> for more info on setting up environmental variables.
 
-### Host it on VPS or Locally
-
-```sh
-git clone https://github.com/AbirHasan2005/Pyro-FileStreamBot
-cd TG-FileStreamBot
-virtualenv -p /usr/bin/python3 venv
-. ./venv/bin/activate
-pip install -r requirements.txt
-python3 -m WebStreamer
-```
-
-and to stop the whole bot,
- do <kbd>CTRL</kbd>+<kbd>C</kbd>
-
-## Setting up things
-
-If you're on Heroku, just add these in the Environmental Variables
-or if you're Locally hosting, create a file named `.env` in the root directory and add all the variables there.
-An example of `.env` file:
-
-```sh
-API_ID=452525
-API_HASH=esx576f8738x883f3sfzx83
-BOT_TOKEN=55838383:yourtbottokenhere
-BIN_CHANNEL=-100
-PORT=8080
-FQDN=your_server_ip
-OWNER_ID=your_user_id
-DATABASE_URL=mongodb_uri
-```
 
 ### Mandatory Vars
 
@@ -144,6 +58,4 @@ Bot also Supported with Channels. Just add bot Channel as Admin. If any new file
 
 ## Credits
 
-- [@EverythingSuckz](https://github.com/EverythingSuckz) & [@AbirHasan2005](https://github.com/AbirHasan2005)
-- [eyaadh](https://github.com/eyaadh) for his awesome [Megatron Bot](https://github.com/eyaadh/megadlbot_oss)
-- [Dan Tès](https://telegram.dog/haskell) for his [Pyrogram Library](https://github.com/pyrogram/pyrogram)
+
