@@ -13,6 +13,13 @@ The easiest way to deploy this Song Bot  <br><br>
 then goto the <a href="#mandatory-vars">variables tab</a> for more info on setting up environmental variables.
 
 
+### Heroku web Server Sleeps after 30 minutes. You can Ping if to Keep it always Active. I am also doing same thing.  
+
+## To ping 👉 https://kaffeine.herokuapp.com/
+
+
+
+
 ### Mandatory Vars
 
 `API_ID` : Goto [my.telegram.org](https://my.telegram.org) to obtain this.
