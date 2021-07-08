@@ -32,7 +32,7 @@ then goto the <a href="#mandatory-vars">variables tab</a> for more info on setti
 
 `OWNER_ID` : Your Telegram User ID
 
-`DATABASE_URL` : MongoDB URI for saving User IDs when they first Start the Bot. We will use that for Broadcasting to them. I will try to add more features related with Database. If you need help to get the URI you can ask in [Support Group](https://t.me/linux_repo).
+`DATABASE_URL` : MongoDB URI for saving User IDs when they first Start the Bot. We will use that for Broadcasting to them. I will try to add more features related with Database. 
 
 ### Optional Vars
 
